@@ -4,6 +4,8 @@
     padding-top: 2em;
     padding: 1em;
     gap: .5em;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 .link--section{
     display: flex;
@@ -13,4 +15,11 @@
 .link--section a{
     text-decoration: none;
     color: #333;
+}
+
+@media screen and (min-width: 1000px) {
+    .footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

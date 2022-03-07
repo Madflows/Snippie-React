@@ -1,16 +1,17 @@
-import React from 'react'
+import React from "react";
 
-import {Header, About, Footer} from './containers';
+import { Header, About, Footer } from "./containers";
+import { Banner } from "./components";
 
 function App() {
-
   return (
     <>
-     <Header />
-     <About />
-     <Footer />
+      <Banner />
+      <Header />
+      <About />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

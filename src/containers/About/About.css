@@ -3,6 +3,8 @@
     flex-direction: column-reverse;
     padding: 2em .5em;
     gap: 1em;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .about .text--section{
@@ -15,6 +17,7 @@
     .about{
         flex-direction: row-reverse;
         align-items: center;
+        justify-content: space-between;
     }
     .about .text--section{
         width: 80%;
