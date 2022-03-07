@@ -1,6 +1,15 @@
 .banner{
-    position: absolute;
-    top: 0;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     color: #fff;
+    background: var(--dark-color);
+    z-index: 2;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
 }
