@@ -3,12 +3,12 @@
     bottom: 0;
     width: 100%;
     color: #fff;
-    background: var(--dark-color);
+    background: #000;
     z-index: 2;
     text-align: center;
 }
 
-a{
+.banner a{
     text-decoration: none;
     color: #fff;
     border-bottom: 1px solid #fff;
