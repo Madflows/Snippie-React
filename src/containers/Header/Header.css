@@ -1,0 +1,82 @@
+.header{
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 0;
+    background: url(../../images/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.text--section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 1em;
+}
+
+.hero-text{
+    font-size: 3em;
+    text-align: center;
+}
+.sub-text{
+    color: var(--gray-color);
+    text-align: center;
+    font-size: .9em;
+    margin: 1em 0;
+    font-weight: 500;
+}
+
+.btn{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 1em 0;
+    border-radius: .5em;
+    font-size: .9em;
+}
+
+.cta-btn{
+    background: var(--dark-color);
+    font-weight: 600;
+    color: #fff;
+}
+
+.cta-btn span{
+    font-weight: 400;
+    color: #ccc;
+}
+
+.subtitle{
+    color: var(--gray-color);
+}
+
+.image--section{
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.image--section img{
+    object-fit: contain;
+    width: 80%;
+}
+
+@media screen and (min-width: 900px) {
+    .hero-text{
+        font-size: 3.5em;
+    }
+    .btn, .cta-btn{
+        width: 300px;
+    }
+}

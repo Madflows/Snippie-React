@@ -1,0 +1,13 @@
+:root{
+  --base-font: 'Poppins', sans-serif;
+
+  --dark-color: #212426;
+  --gray-color: #333333;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--base-font);
+}

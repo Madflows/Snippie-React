@@ -1,0 +1,16 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    padding: 1em;
+    gap: .5em;
+}
+.link--section{
+    display: flex;
+    gap: 1em;
+}
+
+.link--section a{
+    text-decoration: none;
+    color: #333;
+}
